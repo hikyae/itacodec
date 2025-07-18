@@ -13,9 +13,9 @@ This is a Python script that encodes and decodes text using Unicode variation se
 ## Usage
 ```bash
 python itacodec.py -e -n "🥳" "hello world" > hello_world_in_emoji.txt
-cat hello_world_in_emoji.txt | python itacodec.py -d
+<hello_world_in_emoji.txt python itacodec.py -d
 python itacodec.py -e -l -n "😈" "nested" "hidden" "messages" > nested.txt
-cat nested.txt | python itacodec.py -d -l
+<nested.txt python itacodec.py -d -l
 ```
 
 Input strings can be provided as command-line arguments. If omitted, input is read from stdin.
